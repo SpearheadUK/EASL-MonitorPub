@@ -1,7 +1,7 @@
 # EASL-MonitorPub — hosting files
 
 These two files are what Chrome downloads to install/update EASL Monitor. Upload the
-**contents of this folder** to the root of the public repo `ThinkCGI/EASL-MonitorPub`
+**contents of this folder** to the root of the public repo `SpearheadUK/EASL-MonitorPub`
 and turn on GitHub Pages.
 
 Files:
@@ -10,13 +10,13 @@ Files:
 
 ## One-time setup
 
-1. Create the public repo **ThinkCGI/EASL-MonitorPub** (already in progress).
+1. Create the public repo **SpearheadUK/EASL-MonitorPub** (already in progress).
 2. Upload `EASL-Monitor.crx` and `update.xml` to the repo root.
 3. Repo **Settings → Pages**: set **Source = Deploy from a branch**, branch `main`,
    folder `/ (root)`, then Save.
 4. Wait ~1 minute. Confirm both URLs load in a browser:
-   - https://thinkcgi.github.io/EASL-MonitorPub/update.xml
-   - https://thinkcgi.github.io/EASL-MonitorPub/EASL-Monitor.crx  (should download)
+   - https://spearheaduk.github.io/EASL-MonitorPub/update.xml
+   - https://spearheaduk.github.io/EASL-MonitorPub/EASL-Monitor.crx  (should download)
 
 Once those work, the Windows installer (`../installer/`) and the Mac profile are already
 pointed at this URL — just run them on the target machines.
